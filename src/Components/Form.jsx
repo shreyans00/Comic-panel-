@@ -78,7 +78,7 @@ const Form = () => {
                 value={input}
                 onChange={(e) => handleInputChange(e, index)}
                 rows="2"
-                //   required
+                required
               />
             </div>
           ))}

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap");
+
+/* Variables */
+:root {
+  --font-family: "Lora", serif;
+  --bg-color: rgba(177, 237, 229, 0.389);
+}
+/* Variables end */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+}
